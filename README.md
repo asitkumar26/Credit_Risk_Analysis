@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 #Overview of the analysis: Explain the purpose of this analysis.
 
-This analysis is based on the different machine learning algorithms (Logistic regression with different sampling techniques, Ensemble Learners) that has been used. 
+This analysis is based on the models crerated using different machine learning algorithms (Logistic regression with different sampling techniques, Ensemble Learners) that has been used. 
 
 #Results: 
 
@@ -12,25 +12,24 @@ This analysis is based on the different machine learning algorithms (Logistic re
 	- Precision is around 69%~ (70/ (70+31) = 0.69) which is nothing but model is correct 69% of the time.
 	- Recall is around 1% (70/(70+6813) = 0.01) which is nothing but model identifies 1% of High risk loans.
 
-
-Screenshots of LogisticRegression-RandomOverSampler.png
+https://github.com/asitkumar26/Credit_Risk_Analysis/blob/main/LogisticRegression-RandomOverSampler.png
 
 
 ##Logistic regression with Oversampling (using SMOTE from imblearn)
 
 	- The accuracy of the model to predict a high risk loan is 66% based on the score recieved. 
 	- Precision is around 63%~ (64/ (64+37) = 0.63) which is nothing but model is correct 63% of the time.
-	- Recall is around 1% (64/(64+11813) = 0.01) which is nothing but model identifies 1% of all loans as High risk loans.
+	- Recall is around 1% (64/(64+5291) = 0.01) which is nothing but model identifies 1% of all loans as High risk loans.
 
-Screenshots of LogisticRegression-SMOTE
+https://github.com/asitkumar26/Credit_Risk_Analysis/blob/main/LogisticRegression-SMOTE.png
 
 ##Logistic regression with Undersampling (using ClusterCentroids from imblearn )
 
-    - The accuracy of the model to predict a high risk loan is 70% based on the score recieved. 
+    - The accuracy of the model to predict a high risk loan is 54% based on the score recieved. 
 	- Precision is around 69%~ (70/ (70+31) = 0.69) which is nothing but model is correct 69% of the time.
 	- Recall is around 0.6% (70/(70+10340) = 0.006) which is nothing but model identifies 0.6% of all loans as High risk loans.
 
-Screenshots of  LogisticRegression-ClusterCentroids
+https://github.com/asitkumar26/Credit_Risk_Analysis/blob/main/LogisticRegression-ClusterCentroids.png
 
 
 
@@ -41,18 +40,17 @@ Screenshots of  LogisticRegression-ClusterCentroids
 	- Recall is around 0.9% (73/(73+7412) = 0.009) which is nothing but model identifies 0.9% of all loans as High risk loans.
 
 
-Screenshots of LogisticRegression-SMOTEEN
-
+https://github.com/asitkumar26/Credit_Risk_Analysis/blob/main/LogisticRegression-SMOTEEN.png
 
 
 ##Balanced Random Forest Classifier from imblearn
 
     - The accuracy of the model to predict a high risk loan is 78% based on the score recieved. 
 	- Precision is around 70%~ (71/ (71+30) = 0.70) which is nothing but model is correct 70% of the time.
-	- Recall is around 3%~ (73/(73+2153) = 0.031) which is nothing but model identifies 3% of all loans as High risk loans.
+	- Recall is around 3%~ (71/(71+2153) = 0.031) which is nothing but model identifies 3% of all loans as High risk loans.
 
 
-Screenshots of BalancedRandomForest
+https://github.com/asitkumar26/Credit_Risk_Analysis/blob/main/BalancedRandomForest.png
 
 
 ##Easy Ensemble AdaBoost Classifier
@@ -60,8 +58,8 @@ Screenshots of BalancedRandomForest
     - The accuracy of the model to predict a high risk loan is 93% based on the score recieved. 
 	- Precision is around 92%~ (93/ (93+8) = 0.92) which is nothing but model is correct 92% of the time.
 	- Recall is around 8%~ (93/(93+1017) = 0.083) which is nothing but model identifies 8% of all loans as High risk loans.
-
-Screenshots of EasyEnsembleAdaboost
+	
+https://github.com/asitkumar26/Credit_Risk_Analysis/blob/main/EasyEnsembleAdaboost.png
 
 
 
